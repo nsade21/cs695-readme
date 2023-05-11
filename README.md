@@ -48,11 +48,11 @@ Repo Root
                                   
     +-- build.gradle
     
-+-- automl                                                  # Code to build an E-cig detection app with on server computation 
-    +-- app                                             # Content of application 
++-- automl                                                # Code to build an E-cig detection app with on server computation 
+    +-- app                                               # Content of application 
             +-- build.grade
             +-- src/main                                   
-                    +-- java                                # Java code to run backend
+                    +-- java                              # Java code to run backend
                         +-- res
        +-- build.gradle 
               
