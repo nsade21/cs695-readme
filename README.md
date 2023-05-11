@@ -20,7 +20,7 @@ This project is based on the code provided by  Yi Zhou in the follwing repositor
 </a>
 
 
-## Project Sturcture
+## Project Structure
 ```
 Repo Root
 +-- e-cig-data.csv                                          # Contains training and testing data for e-cigs
@@ -46,7 +46,17 @@ Repo Root
                                             +-- PermissionsFragment.kt                          # Code for permissions
                                     +-- res                                                     # Files used for UI
                                   
-    +-- build.gradle 
+    +-- build.gradle
++-- automl                                                  # Code to build an E-cig detection app with on server computation 
+        +-- app                                             # Content of application 
+             +-- build.grade
+             +-- src/main                                   
+                    +-- java                                # Java code to run backend
+                    +-- res
+       +-- build.gradle 
+              
+            
+            
     
 ```
 
