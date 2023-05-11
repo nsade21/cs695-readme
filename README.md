@@ -1,15 +1,24 @@
-# An example of README
+# README
 
-This repository contains code used for xxxx (Introduction)
+This repository contains code used for an E-cigarette Detection Android Application 
 
 ## Repositories Utilized in this Project
 Indicate all code repositories you have referenced
 
 Example:
 
-This project is based on the code provided by Ruizhi Cheng in the follwing repository
-<a href="https://github.com/felixshing/Metaverse_IMC2022">Metaverse_IMC2022
+This project is based on the code provided by TensorFlow Authors in the follwing repository
+<a href="https://colab.research.google.com/github/googlecodelabs/odml-pathways/blob/main/object-detection/codelab2/python/Train_a_salad_detector_with_TFLite_Model_Maker.ipynb#scrollTo=Hm_UULdW7A9T">Train a salad detector with TFLite Model Maker
 </a>
+
+This project is based on the code provided by TensorFlower Gardener in the follwing repository
+<a href="https://github.com/tensorflow/examples/tree/master/lite/examples/object_detection/android">TensorFlow Lite Object Detection Android Demo
+</a>
+
+This project is based on the code provided by  Yi Zhou in the follwing repository
+<a href="https://github.com/googlesamples/mlkit/tree/master/android/automl">ML Kit AutoML Remote Model Quickstart Sample App
+</a>
+
 
 ## Project Strcuture
 The following is an example of how to write a project structure
