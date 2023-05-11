@@ -20,16 +20,31 @@ This project is based on the code provided by  Yi Zhou in the follwing repositor
 </a>
 
 
-## Project Strcuture
-The following is an example of how to write a project structure
+## Project Sturcture
 ```
 Repo Root
-+-- disruption.py           # Sec. 8: Network Disruptions
-+-- ovr_plot.py             # Get data from OVR Metrics Tool and plot the results
-+-- E2Elatency              # Sec. 7: End-to-end Latency
-    +-- crop_video.py       # Crop video
-    +-- video2frame.py      # Extract the video frame from the video
-    +-- quest2_AP_sync.py   # Sync time between Quest2s
++-- e-cig-data.csv                                  # Contains training and testing data for e-cigs
++-- e_cig_detector_tflite_model_maker.py            # Code to build object detection models
++-- android                                         # Code to build an E-cig detection app with on device computation 
+    +-- app                                         # Content of application 
+            +-- build.gradle
+            +-- src
+                    +-- main
+                            +-- assets
+                                    +-- efficientdet-lite0.tflite   # Object detection model
+                                    +-- efficientdet-lite1.tflite   # Object detection model
+                                    +-- efficientdet-lite2.tflite   # Object detection model
+                                    +-- mobilenetv1.tflite          # Object detection model
+                            +-- java --> org --> tensorflow--> lite --> examples --> objectdetection
+                                    +-- MainActivity.kt             # Code for main app
+                                    +-- ObjectDetectorHelper.kt     # Code for object detection
+                                    +-- OverlayView.kt              # Code for annotations
+                                    +-- fragments
+                                            +-- CameraFragment.kt   # Code for camera 
+                                            +-- PermissionsFragment.kt # Code for permissions
+                                    +-- res           # Files used for UI
+                                  
+    +-- build.gradle  # Sync time between Quest2s
     +-- E2Elatency.py       # Calculate the E2E latency
 ```
 
