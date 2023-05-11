@@ -54,11 +54,7 @@ Repo Root
             +-- src/main                                   
                     +-- java                              # Java code to run backend
                         +-- res
-       +-- build.gradle 
-              
-            
-            
-    
+       +-- build.gradle   
 ```
 
 ## Quick Start
