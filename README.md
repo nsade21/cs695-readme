@@ -47,12 +47,13 @@ Repo Root
                                     +-- res                                                     # Files used for UI
                                   
     +-- build.gradle
+    
 +-- automl                                                  # Code to build an E-cig detection app with on server computation 
-        +-- app                                             # Content of application 
-             +-- build.grade
-             +-- src/main                                   
+    +-- app                                             # Content of application 
+            +-- build.grade
+            +-- src/main                                   
                     +-- java                                # Java code to run backend
-                    +-- res
+                        +-- res
        +-- build.gradle 
               
             
