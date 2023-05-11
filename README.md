@@ -26,7 +26,6 @@ Repo Root
 +-- e-cig-data.csv                                          # Contains training and testing data for e-cigs
 +-- e_cig_detector_tflite_model_maker.py                    # Code to build object detection models
 +-- app-debug.apk                                           # apk download to run on andriod -- device computation
-+-- vision-automl-remote-model-quickstart-proguard.apk      # apk download to run on andriod -- server computation
 +-- android                                                 # Code to build an E-cig detection app with on device computation 
     +-- app                                                 # Content of application 
             +-- build.gradle
